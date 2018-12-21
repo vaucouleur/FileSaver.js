@@ -20,7 +20,7 @@ var _global = typeof window === 'object' && window.window === window
 function bom (blob, opts) {
   if (typeof opts === 'undefined') opts = { autoBom: false }
   else if (typeof opts !== 'object') {
-    console.warn('Depricated: Expected third argument to be a object')
+    console.warn('Deprecated: Expected third argument to be an object')
     opts = { autoBom: !opts }
   }
 
